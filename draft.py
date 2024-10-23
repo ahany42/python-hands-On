@@ -86,3 +86,18 @@ def Fibonaci(number):
     return Fibonaci(number-1) + Fibonaci(number-2)
   
 print(Fibonaci(10))
+
+#hands on 11
+#Input: [[1, 2], [3, 4], 5]
+#Output: [1, 2, 3, 4, 5]
+def FlattenList (li):
+  newList = []
+  for x in li:
+    if isinstance(x, list): 
+      newList.extend(x) 
+    else:
+      newList.append(x) 
+  return newList
+
+print(FlattenList([[1, 2], [3, 4], 5]))
+
