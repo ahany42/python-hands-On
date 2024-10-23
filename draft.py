@@ -52,4 +52,19 @@ class car:
     return self.model , self.year
   
 c1 = car("Honda",2024)
-print(c1.printData())
+# print(c1.printData())
+
+ #hands on 7
+def isEven (number):
+  return (number % 2 == 0)
+
+#hands on 8
+def sumOfEven (list):
+  sum = 0
+  for x in list:
+    if(isEven(x)):
+      sum += x
+    else:
+      continue;
+  return sum
+#print(sumOfEven([1,2,3,4]))
