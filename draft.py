@@ -131,3 +131,17 @@ for x in c1:
   print(x)
 for x in c1:
   print(x)
+  
+#hands on 15
+# Check for Anagrams
+# Question: Write a function that checks if two strings are anagrams 
+# (contain the same characters in different orders).
+# Example Input: "listen", "silent"
+# Example Output: True
+def anagrams(s1,s2):
+  if(len(s1) != len(s2)):
+    return False;
+  else:
+   return(sorted(s1) == sorted(s2))
+
+print(anagrams("listen", "silent")) 
