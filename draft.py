@@ -40,4 +40,16 @@ def secondLargestNumber(list):
     li = removeDuplicates(list)
     li.sort()
     return li[2];
-print(secondLargestNumber([1,2,8,7,6]))
+# print(secondLargestNumber([1,2,8,7,6]))
+
+#hands on 6
+class car:
+  def __init__(self,model,year):
+    self.model = model
+    self.year  = year
+    
+  def printData(self):
+    return self.model , self.year
+  
+c1 = car("Honda",2024)
+print(c1.printData())
