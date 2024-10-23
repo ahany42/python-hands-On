@@ -101,3 +101,19 @@ def FlattenList (li):
 
 print(FlattenList([[1, 2], [3, 4], 5]))
 
+class Human:
+  def __init__(self,name,age,car):
+    self.name = name
+    self.age = age
+    self.car = car
+  def getCar(self):
+    return self.car.model , self.car.year
+  def getName(self):
+    return self.name
+  def getAge(self):
+    return self.age
+  
+h1 = Human("Aly Hany",20,c1)
+print(h1.getCar())
+print(h1.getAge())
+print(h1.getName())
