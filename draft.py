@@ -73,8 +73,8 @@ def sumOfEven (list):
 list1 = [1,2,3]
 list2 = list1.copy()
 list1.pop()
-print (list1)
-print (list2)
+# print (list1)
+# print (list2)
 
 #hands on 10
 def Fibonaci(number):
@@ -85,7 +85,7 @@ def Fibonaci(number):
   else:
     return Fibonaci(number-1) + Fibonaci(number-2)
   
-print(Fibonaci(10))
+# print(Fibonaci(10))
 
 #hands on 11
 #Input: [[1, 2], [3, 4], 5]
@@ -99,8 +99,9 @@ def FlattenList (li):
       newList.append(x) 
   return newList
 
-print(FlattenList([[1, 2], [3, 4], 5]))
+# print(FlattenList([[1, 2], [3, 4], 5]))
 
+# hands on 12
 class Human:
   def __init__(self,name,age,car):
     self.name = name
@@ -114,6 +115,19 @@ class Human:
     return self.age
   
 h1 = Human("Aly Hany",20,c1)
-print(h1.getCar())
-print(h1.getAge())
-print(h1.getName())
+# print(h1.getCar())
+# print(h1.getAge())
+# print(h1.getName())
+
+#hands on 13
+def ReverseList(list):
+  return list[::-1]
+# print(ReverseList([1,2,3,4,5]))
+
+#hands on 14
+#tuples 
+c1 = (1,2,3)
+for x in c1:
+  print(x)
+for x in c1:
+  print(x)
