@@ -68,3 +68,21 @@ def sumOfEven (list):
       continue;
   return sum
 #print(sumOfEven([1,2,3,4]))
+
+#hands on 9
+list1 = [1,2,3]
+list2 = list1.copy()
+list1.pop()
+print (list1)
+print (list2)
+
+#hands on 10
+def Fibonaci(number):
+  if(number == 1):
+    return 1
+  elif(number == 0):
+    return 0
+  else:
+    return Fibonaci(number-1) + Fibonaci(number-2)
+  
+print(Fibonaci(10))
