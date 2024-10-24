@@ -169,3 +169,18 @@ FindIndexOf(3,li)
 #inserting value in the same index of another value will shift the values 
 li.insert(0,4)
 print(li)
+
+#hands on 20
+#sorted vs sort
+print(sorted(li))
+#li is not saved sorted in memory
+print(li)
+#li is saved stored
+li.sort()
+print(li)
+
+#hands on 21
+#input integer
+x = input("Enter a number\n")
+x = int(x)
+print(x*x)
