@@ -77,15 +77,15 @@ list1.pop()
 # print (list2)
 
 #hands on 10
-def Fibonaci(number):
+def Fibonacci(number):
   if(number == 1):
     return 1
   elif(number == 0):
     return 0
   else:
-    return Fibonaci(number-1) + Fibonaci(number-2)
+    return Fibonacci(number-1) + Fibonacci(number-2)
   
-# print(Fibonaci(10))
+# print(Fibonacci(10))
 
 #hands on 11
 #Input: [[1, 2], [3, 4], 5]
@@ -145,3 +145,27 @@ def anagrams(s1,s2):
    return(sorted(s1) == sorted(s2))
 
 print(anagrams("listen", "silent")) 
+
+#hands on 16
+#pop vs remove
+#pop returns the element , remove is void
+li = [1,2,3]
+print(li.pop()) #=> 3
+#print(li.remove()) error
+
+#hands on 17
+#inserting a value at index bigger than size + 1 will insert the value at the index of size
+li.insert(100,3)
+print(li)
+
+#hands on 18
+#find index of particular element
+def FindIndexOf(number,li):
+  print(li.index(number))
+  
+FindIndexOf(3,li)
+
+#hands on 19
+#inserting value in the same index of another value will shift the values 
+li.insert(0,4)
+print(li)
