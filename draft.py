@@ -181,9 +181,9 @@ print(li)
 
 #hands on 21
 #input integer
-x = input("Enter a number\n")
-x = int(x)
-print(x*x)
+# x = input("Enter a number\n")
+# x = int(x)
+# print(x*x)
 
 #hands on 22
 class Countdown:
@@ -194,9 +194,38 @@ class Countdown:
     for x in range (1,self.number+1):
         li.insert(0,x)
     return li
-X = input("Enter A Number")
-X = int(X)
-c2 = Countdown(X)
-li = c2.Count()
-for x in li:
+# X = input("Enter A Number")
+# X = int(X)
+# c2 = Countdown(X)
+# li = c2.Count()
+# for x in li:
     print(x)
+#hands on 23 
+# input Aly Hany Mohamed
+# output ['Aly','Hany','Mohamed']
+st = "Aly Hany Mohamed"
+st = st.split(sep=" ")
+print(st)
+
+#hands on 24
+#input "hello"
+#output "Hello"
+st1 = "hello"
+st1 = st1.capitalize()
+print(st1)
+
+#hands on 25
+#Capitalize Question Hackerrank
+#input "hello world i am Aly hany"
+#output "Hello World I Am Aly Hany"
+
+def solve(s):
+    s =s.split(sep=" ")
+    st = ""
+    for x in s:
+       st = st +" "+''.join(x.capitalize())
+    st = st.lstrip(' ')
+    return st
+s = solve("hello world i am Aly hany")
+
+print(s)
