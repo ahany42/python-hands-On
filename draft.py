@@ -194,7 +194,9 @@ class Countdown:
     for x in range (1,self.number+1):
         li.insert(0,x)
     return li
-c2 = Countdown(5)
+X = input("Enter A Number")
+X = int(X)
+c2 = Countdown(X)
 li = c2.Count()
 for x in li:
     print(x)
