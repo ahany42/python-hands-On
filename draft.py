@@ -184,3 +184,17 @@ print(li)
 x = input("Enter a number\n")
 x = int(x)
 print(x*x)
+
+#hands on 22
+class Countdown:
+  def __init__(self,number):
+    self.number = number
+  def Count(self):
+    li = []
+    for x in range (1,self.number+1):
+        li.insert(0,x)
+    return li
+c2 = Countdown(5)
+li = c2.Count()
+for x in li:
+    print(x)
