@@ -229,3 +229,19 @@ def solve(s):
 s = solve("hello world i am Aly hany")
 
 print(s)
+
+#hands on 26
+#string multiplication 
+game ="R6"
+print("game is "+(game +" ")* 10)
+
+#hands on 27
+#round to int in division
+print(5/2) #2.5
+print(5//2) #2
+
+#hands on 28
+#more readable in case of large numbers 
+# "_" is ignored by interpreter 
+salary = 200_000
+print("Net Salary is "+str(int((((salary - (salary * 0.14)))))))
