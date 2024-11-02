@@ -245,3 +245,13 @@ print(5//2) #2
 # "_" is ignored by interpreter 
 salary = 200_000
 print("Net Salary is "+str(int((((salary - (salary * 0.14)))))))
+
+#hands on 29 
+#in key word 
+print("Aly"in "Aly Hany")
+print("Aly"in "AlyHany")
+print("Aly"in "alyHany")
+
+arr = [1,2,3]
+print(3 in arr)
+print(4 in arr)
